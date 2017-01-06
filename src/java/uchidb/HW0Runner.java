@@ -1,5 +1,6 @@
 package uchidb;
 
+import java.util.Set;
 
 /**
  * @author aelmore
@@ -12,11 +13,12 @@ public class HW0Runner {
 	// https://www.tutorialspoint.com/java/java_using_singleton.htm
 	public static Containers<Integer, String> getContainers() {
 		// TODO fix this function
-		return null;
+		ContainersImpl containers = ContainersImpl.getInstance();
+		return containers;
 	}
 
 
 	public static void main(String[] args){
-		
+
 	}
 }

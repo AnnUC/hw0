@@ -21,7 +21,6 @@ public class ContainersImpl<T,S> implements Containers<T,S> {
 		// You do not need to create your own set implementation and 
 		// can use an existing set class.
 		public Set<T> initSet(T[] tArray){
-			System.out.println(tArray[1]);
 			Set<T> s = new HashSet<T> ();
 			for(int i=0;i<tArray.length;i++) {
 				s.add(tArray[i]);
